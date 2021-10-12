@@ -1,0 +1,27 @@
+body{
+    background-image: url(whatsapp.PNG);
+    background-repeat: no-repeat;
+}
+.center {
+    border: 10px dashed red;
+    width: 40%; 
+    margin-top: 100px;
+margin-left: 200px;
+    padding: 20px;
+    border-radius: 11px;
+    text-align: center;
+    color: red;
+    box-shadow: black bottom;
+
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+}
+button:hover{
+    background-color: red;
+}
+p{
+    color: rgb(5, 5, 5);
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(leave.jpg);
+}
+.menu{
+    display:flex;
+    border:none;
+    justify-content: space-evenly;
+    color: white;
+    background: rgba(23,23,32, 50%);
+    font-size: xx-small;
+}
+.register{
+    height: 20px;
+    width: 100px;
+}
+button{
+    width: 60px;
+    height: 20px;
+    align-self: center;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 30px;
+}
+.cont {
+    border:none;
+    width: 200px;
+    margin: auto;
+    background: rgba(23,23,32, 70%);
+    padding: 40px;
+    color: seashell;
+  }
+   @media screen and (max-width: 768px) { .menu{
+       font-size: 5px;
+   }
+      
+  }
+  select{
+      height: 10px;
+      align-self: center;
+  }

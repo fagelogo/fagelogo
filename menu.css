@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    background: white
+}
+.menu {
+  height: 60px;
+  width: 100%;
+  /* border: red solid 1px; */
+  background-color: white;
+  box-shadow: 0.5px 0.5px 5px #888888;
+}
+.nav {
+  height: 60px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+li {
+  margin-left: 40px;
+}
+.btn2 {
+  border: none;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  background: #FFA010;
+  color: white;
+  box-shadow:2px 5px 20px grey;
+  margin-left: 10px;
+}
+.btn{
+  border: none;
+  width: 60px;
+  height: 30px;
+  background: none;
+  color: black;
+}
+.container{
+    /* border:#2E9EB6 solid 3px ; */
+    height: 400px;
+    align-items: center;
+    
+}
+.form{
+    /* border:blue solid 1px ; */
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label{
+    border-radius: 5px;
+    height: 320px; ;
+    width: 250px;
+    margin: auto;
+}
+input{
+    width: 100%;
+    height: 50px;  
+    padding-left: 17px;
+    border:rgba(226, 225, 225, 0.733) solid 1px;
+    border-radius: 8px;
+    
+}
+label{
+    padding-left:1px ;
+}
+button{
+    width: 100%;
+    height:50px ;
+    border-radius: 4px;
+    border: none;
+    background-color: #FFA010;
+    color: white;
+    
+}
+p{
+    margin: auto;
+    align-content: center;
+}
+input::placeholder{
+    color: rgb(224, 221, 221);
+}
+.login{
+    text-align: center;
+    font-size: x-small;
+}
+span{
+    color:blue ;
+}
+.footer{
+    height: 100%;
+    background-color: #2E9EB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update{
+    width: 200px;
+}
+.sheet{
+    margin-bottom: 10px;
+}
+.footercontent{
+    /* border: red solid 2px; */
+    width: 700px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.copy{
+    text-align: center;
+    background-color: #2E9EB6;
+    color: white;
+}
+
+    
+@media screen and (max-width : 768px){
+    .nav{
+        width: 90%;
+    }
+    ul{
+        display: none;
+    }
+.cont{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.form{
+    width: 100%;
+}
+.label{
+    width: 100%;
+}
+.fmenu{
+    display: none;
+}
+.term{
+    display: none;
+}
+.update{
+    margin: auto;
+}
+
+    }

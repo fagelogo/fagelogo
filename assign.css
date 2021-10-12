@@ -1,0 +1,47 @@
+.form {
+  border: blue solid 1px;
+  width: 300px;
+  border-radius: 8px;
+  margin: auto;
+  text-align: left;
+  padding: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+.cont {
+  align-self: center;
+  margin: auto;
+}
+button {
+  width: 280px;
+  height: 30px;
+  background-color: rgb(53, 149, 228);
+  border-radius: 5px;
+  border: rgb(10, 10, 10) solid 1px;
+  color: white;
+}
+input {
+  width: 280px;
+  height: 30px;
+  background-color: rgb(201, 201, 233);
+  border: none;
+}
+label {
+  font-size: smaller;
+  font-weight: bold;
+}
+span {
+  color: rgb(77, 51, 245);
+}
+input::placeholder {
+  padding: 12px;
+  font-style: italic;
+}
+button:hover {
+  background-color: rgb(88, 1, 248);
+}
+select {
+  width: 280px;
+}
